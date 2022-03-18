@@ -105,7 +105,8 @@ nuqta.addEventListener("click", function () {
 
 // ekranni to'liq tozalash
 clear.addEventListener("click", function () {
-  location.reload();
+  display.value = " ";
+  // location.reload(); //refresh beradi
 });
 
 // bittalab o'chirish uchun
