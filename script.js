@@ -121,5 +121,8 @@ clear.addEventListener("click", function () {
 // });
 
 tenglik.addEventListener("click", function () {
-  display.value = eval(display.value);
+  let arr = [];
+  arr = display.value;
+  console.log(typeof arr);
+  // display.value = eval(display.value);
 });
